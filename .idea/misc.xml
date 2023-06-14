@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
-  <component name="SuppressABINotification">
-    <option name="modulesWithSuppressedNotConfigured">
-      <set>
-        <option value="To_Gammer_App.app" />
-      </set>
-    </option>
-=======
-  <component name="ProjectRootManager">
-    <output url="file://$PROJECT_DIR$/out" />
->>>>>>> a6bcedd9d879d241496b941d7bae4b050c7559b7
-  </component>
+
 </project>
