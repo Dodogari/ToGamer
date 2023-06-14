@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile_basic"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/foreground_profile"
+        app:layout_constraintEnd_toEndOf="@+id/foreground_profile"
+        app:layout_constraintStart_toStartOf="@+id/foreground_profile"
+        app:layout_constraintTop_toTopOf="@+id/foreground_profile"
+        tools:ignore="ImageContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/foreground_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/foreground_profile"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/s_core_dream4"/>
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_text_log_in"
+            android:fontFamily="@font/s_core_dream8"
+            android:text="@string/edit_profile"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/written_post"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/s_core_dream4"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

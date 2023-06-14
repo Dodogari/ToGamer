@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "81231536716",
+    "project_id": "to-gammer",
+    "storage_bucket": "to-gammer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81231536716:android:be4a20c7d009c3480ccae9",
+        "android_client_info": {
+          "package_name": "com.example.to_gammer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81231536716-d8nnpd3rsel1uc4ghjiht9jbicka9lpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.to_gammer_app",
+            "certificate_hash": "52ab70a87e64c5a0804a58d3b4429d2080833292"
+          }
+        },
+        {
+          "client_id": "81231536716-c0hog5p7g3tbcna5bo66jjmi2nm5vstc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDNwvf1R0Oa_GesjZ1hGSCV-e1Kl1U3-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81231536716-c0hog5p7g3tbcna5bo66jjmi2nm5vstc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

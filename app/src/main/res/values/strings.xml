@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">To_Gammer_App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="log_in">로그인</string>
+    <string name="find_id_pw"><![CDATA[아이디/비밀번호 찾기 >]]></string>
+    <string name="password">비밀번호</string>
+    <string name="button_log_in">로그인</string>
+    <string name="email">이메일</string>
+    <string name="social_log_in">간편 로그인</string>
+    <string name="google">google</string>
+    <string name="naver">naver</string>
+    <string name="kakao">kakao</string>
+    <string name="sign_up">회원가입</string>
+    <string name="error_email">* 이메일을 올바른 형식으로 입력해주세요.</string>
+    <string name="error_password">* 입력하신 비밀번호와 다르게 입력하셨습니다.</string>
+    <string name="explain_sign_up">아직 계정이 없으신가요?</string>
+    <string name="password_check">비밀번호 확인</string>
+    <string name="explain_log_in">계정이 있으신가요?</string>
+    <string name="camera">카메라</string>
+    <string name="gallery">갤러리</string>
+    <string name="basic">기본</string>
+    <string name="profile_img">프로필 사진</string>
+    <string name="user_name">별명</string>
+    <string name="setting_profile">프로필 설정</string>
+    <string name="edit_profile">프로필 수정</string>
+    <string name="written_post">작성한 게시물</string>
+    <string name="error_username">* 별명을 입력해주세요.</string>
+</resources>

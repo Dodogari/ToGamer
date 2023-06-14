@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icon_party"
+        android:enabled="true"
+        android:icon="@drawable/navi_selector_party"
+        android:title="파티 모집"/>
+    <item
+        android:id="@+id/icon_ranking"
+        android:enabled="true"
+        android:icon="@drawable/navi_selector_ranking"
+        android:title="랭킹"/>
+    <item
+        android:id="@+id/icon_home"
+        android:enabled="true"
+        android:icon="@drawable/navi_selector_home"
+        android:title="홈"/>
+    <item
+        android:id="@+id/icon_community"
+        android:enabled="true"
+        android:icon="@drawable/navi_selector_community"
+        android:title="커뮤니티"/>
+    <item
+        android:id="@+id/icon_profile"
+        android:enabled="true"
+        android:icon="@drawable/navi_selector_profile"
+        android:title="프로필"/>
+</menu>
